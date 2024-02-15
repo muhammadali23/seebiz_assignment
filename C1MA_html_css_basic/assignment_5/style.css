@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner-sec {
+  background-color: lightgrey;
+  height: 600px;
+  display: flex;
+}
+.banner-pic img{
+    width: 600px;
+    height: auto;
+}
+.banner-text {
+  width: 100%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
+}
+.banner-text h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 50px;
+}
+.arrow_text{
+    font-family: "Roboto", "Arial","sans-serif";
+}
+.contact-btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 19, 73);
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+.service-block{
+    background-color: rgb(19, 19, 73);
+    height: 700px;
+    width: 100%;
+}
+.service-block h1{
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.main_service{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    gap: 100px;
+}
+.service1{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    padding-left: 20px;
+}
+.contact-us{
+    height: 600px;
+    width: 100%;
+    background-image: url(/images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.contact-input{
+    margin-left: 350px;
+    background-color: white;
+    height: 100px;
+    width: 700px;
+    padding-top: 30px;
+}
+.input-field{
+    height: 40px;
+    width: 250px;
+    background-color: lightgrey;
+    border: 1px solid rgb(173, 172, 172);
+}
+.btn-submit{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(19, 19, 73);
+    color: white;
+    border: 1px solid rgb(173, 172, 172);
+}
+.extra-info-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.extra-info{
+    padding-top: 40px;
+    height: 150px;
+    width: 300px;
+    background-color: rgb(19, 19, 73);
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(70, 67, 67);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var input = parseInt(prompt("Enter first element"));
+        var input_2 = parseInt(prompt("Enter second element"));
+        var operator = prompt("Enter the operation which you want to perform like +,-,*,/")
+        switch (operator) {
+            case '+':
+                var result = input+input_2;
+                alert("The answer is: "+result)
+                break;
+            case '-':
+                var result = input-input_2;
+                alert("The answer is: "+result)
+                break;
+            case '*':
+                var result = input*input_2;
+                alert("The answer is: "+result)
+                break;
+            case '/':
+                var result = input/input_2;
+                alert("The answer is: "+result)
+                break;
+            default:
+                alert("Enter a valid operator")
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
