@@ -1,0 +1,40 @@
+Introduction to web
+DNS server
+Web standards
+HTML Elements
+HTML Attributes
+Block Elements
+Inline  Elements
+HTML headings
+HTML Paragraph
+Basic structure for web page
+Basic styles(inline style, internal style, External style)
+Selectors(Id selector, Class selector, Element selector)
+Specificity
+width
+Height
+Css Floats
+Lists, Links
+Css Combinators
+Images
+Buttons
+Css tables
+understand the basic concepts Flexbox & it's usecases.
+Absolute & Relative units
+Absolute & Relative paths
+CSS Font, Text
+Css position
+Overflow
+z-index
+max-width, min-width
+max-height, min-height
+Pseudo classes
+elements
+Icons
+Background Image
+Object-fit
+Object-position
+Transform
+Box-shadow
+Transitions
+Animations

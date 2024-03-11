@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main-banner-div {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(8, 19, 92, 0.9),
+      rgba(8, 19, 92, 0.9)
+    ),
+    url(../images/slider-bg.jpg);
+  background-size: cover;
+}
+.nav-bar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  padding-left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.nav-links ul {
+  margin: 20px;
+  padding-right: 20px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links ul li a:hover {
+  color: #e41a2b;
+}
+main {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-head {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.head-des {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.input-style {
+  height: 35px;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  margin: 4px;
+}
+.btn {
+  height: 35px;
+  width: 180px;
+  /* padding: 9px; */
+  background-color: #e41a2b;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+.btn:hover {
+  background: none;
+  border: 1px solid #e41a2b;
+  color: #e41a2b;
+}
+.check-sec {
+  color: #ffffff;
+  margin: 2rem;
+  text-align: center;
+}
+.cat_container {
+  height: 150px;
+  width: 100%;
+  background-color: #e41a2b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 53.17px;
+  width: 55px;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.div-1 {
+  padding-top: 40px;
+  width: 250px;
+  height: 150px;
+}
+.div-1:hover {
+  background-color: #b91624;
+}
+.about-main {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-text {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.about-img {
+  padding-right: 150px;
+}
+.about-img img {
+  border-radius: 50px;
+}
+.btn-about {
+  height: 50px;
+  width: 150px;
+  background-color: #08135c;
+  color: #ffffff;
+}
+.job-sec{
+    height: 800px;
+    background-color: #08135c;
+}
+.job-sec h1{
+    padding:90px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.job-head{
+    color: #ffffff;
+    margin-left: 150px;
+}
+.job-des{
+    margin-left: 150px;
+    height: 200px;
+    width: 500px;
+    border: 2px solid white;
+}
+.job-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+}
+.job-des-1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.job_title{
+    color: #ffffff;
+}
+.Apply-btn{
+    padding-left: 300px;
+    color: #ffffff;
+}
+.job_card{
+    padding-right: 150px;
+    display: flex;
+}
+.expert-sec{
+    padding-top: 40px;
+}
+
+.expert-sec h1{
+    text-align: center;
+}
+.expert-sec p{
+    text-align: center;
+}
+.card-body{
+    background-color: #08135c;
+    color: #ffffff;
+}
+.card{
+    margin-left: 120px;
+}
+.card-class{
+  display: flex;
+}
+.freelance-btn{
+  position: relative;
+  top: 70px;
+  left: 600px;
+  background-color: #e41a2b;
+  color: #ffffff;
+  border: none;
+}
+.footer-sec{
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: #08135c;
+}
+.footer-sec-text p{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container-main {
+        background-color: azure;
+        height: 80vh;
+        width: 90vw;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+      }
+      .box {
+        height: 10vh;
+        width: 10vw;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 20px;
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+      #box1 {
+        background-color: antiquewhite;
+      }
+      #box2 {
+        background-color: aquamarine;
+      }
+      /* @media (min-width: 640px) {
+        .container {
+          flex-direction: row;
+        }
+      }*/
+      @media (max-width: 640px) {
+        .container-main {
+          flex-direction: column;
+        }
+      } 
+    </style>
+  </head>
+  <body>
+    <h1>responsive web design</h1>
+    <div class="container-main">
+      <div class="container">
+        <div class="box" id="box1">box 1</div>
+        <div class="box" id="box2">box 2</div>
+      </div>
+      <div class="container-pic">
+        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" style="height: 300px; width: 350px;" alt="">
+      </div>
+    </div>
+  </body>
+</html>

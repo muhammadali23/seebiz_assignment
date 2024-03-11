@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px;
+}
+.container_color{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(230, 224, 224);
+}
+.uni_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_logo span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4b208c;
+}
+span{
+    position: relative;
+    bottom: 10px;
+}
+.list_style{
+    list-style: none;
+    margin-top: 20px;
+}
+.list_style a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    color: #0c0c0c;
+}
+
+.list_style a.active{
+    color: white;
+    background-color: #4b208c;
+    border-radius: 50px;
+}
+/* .list_style a:visited{
+    color: white;
+    background-color: #4b208c;
+    border-radius: 25px;    
+} */
+.banner_left{
+    margin-top: 50px;
+    height: 400px;
+    width: 500px;
+}
+.banner_left h1{
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 900;
+}
+.banner_left p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.btn{
+    font-size: medium;
+    margin-top: 40px;
+    background-color: #4b208c;
+    height: 44px;
+    width: 168.44px;
+    border: none;
+    color: #ffff;
+    border-radius: 35px;
+}
+.banner_right{
+    height: 450px;
+    width: 450px;
+}
+.img_border{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 6px solid #4b208c;
+    border-radius: 50%;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service_heading{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px 1%;
+    flex-basis: 31%;
+    padding:70px;
+    height: 321px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5%;
+}
+.box_extra{
+    position: relative;
+    left: 200px;
+}
+.detail_box{
+    width: 300px;
+}
+.detail_box h5{
+    text-align: center;
+    padding-top: 20px;
+    color: #2e0e5f;
+    font-weight: 600;
+    font-size: large;
+}
+.detail_box p{
+    padding-top: 15px;
+    text-align: center;
+}
+.flex_class{
+    display: flex;
+}
+.service_btn {
+    justify-content: center;
+}
+.about_detail{
+    padding-top: 15%;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.about_detail p{
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.about_btn{
+    font-size: medium;
+    margin-top: 40px;
+    background-color: #4b208c;
+    height: 44px;
+    width: 168.44px;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+.about_pic{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.about-img1{
+    width: 85%;
+}
+.about-img2{
+    width: 60%;
+    margin-left: auto;
+    margin-top: -12%;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+.blog_heading{
+    justify-content: center;
+}
+.blog_box{
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.blog_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.blog_detail{
+    padding: 35px;
+}
+.blog_detail h5{
+    font-weight: 600;
+    font-size: large;
+}
+.blog_detail p{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.blog_card{
+    margin-top: 40px;
+    gap: 25px;
+}
+.contact_us{
+    margin-top: 60px;
+}
+.form{
+    width: 50%;
+}
+.contact_detail{
+    margin-top: 40px;
+    gap: 60px;
+}
+.contact_form{
+    flex-direction: column;
+    gap: 20px;
+}
+.map_img img{
+    padding-left: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact_Input input{
+    width: 520px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
+}
+input[type="text"]::placeholder{
+    padding-left: 30px;
+}
+.message_input input{
+    width: 520px;
+    height: 160px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); 
+}
+footer{
+    background-color:#2e0e5f;
+    width: 100%;
+    height: 200px;
+}
+.footer_contact p{
+    padding-top: 8px;
+    color: white;
+}
+.main_footer_contact{
+    justify-content: space-between;
+}
+.gap_class{
+    gap: 10px;
+}
+.info_main{
+    padding-top: 5%;
+}
+.info input{
+    height: 45px;
+    width: 500px;
+}
+.info button{
+    height: 45px;
+    width: 200px;
+    background-color:#4b208c;
+    border: none;
+    position: relative;
+    right: 4px;
+    color: white;
+}
+.social_links{
+    gap: 10px;
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+.rights_reserved{
+    padding: 20px;
+    text-align: center;
+}

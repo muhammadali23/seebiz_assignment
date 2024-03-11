@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.banner_section{
+    background-image: url("../img/banner-bk.jpg");
+    height: 70vh;
+    background-size: cover;
+}
+.flex_class{
+    display: flex;
+}
+.space_bet{
+    justify-content: space-between;
+}
+.flex_dir{
+    flex-direction: column;
+}
+.align_itm{
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+}
+.gap_class{
+    gap: 20px;
+}
+.nav_logo{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.header_nav{
+    padding-top: 5%;
+}
+.nav_text{
+    padding-top: 2%;
+    color: white;
+}
+.banner_text{
+    color: white;
+    width:45%;
+    position: relative;
+    right: 14%;
+}
+.banner_text h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.started_btn{
+    margin-top: 8%;
+    height:35px;
+    width: 120px;
+    background-color:rgb(111, 236, 174);
+    border: none;
+    border-radius: 55px;
+}
+.protection_sec h2{
+    padding-top: 40px;
+    text-align: center;
+}
+.pad_bottom{
+    padding-bottom: 30px;
+}
+.protection_first{
+    height: auto;
+    width: 35%;
+}
+.protection_items{
+    padding-top: 50px;
+    gap: 20px;
+}
+.take_look{
+    height: 60vh;
+    width: 100%;
+    background-color: lightgrey;
+}
+.look_text{
+    position: relative;
+    top: 120px;
+    width: 50%;
+}
+.look_text h2{
+    font-size :2.5em;
+}
+.look_text .started_btn{
+    background-color: rgb(11, 11, 75);
+    color: white;
+}
+.feature-1{
+    width: 50%;
+}
+.feature-1 img{
+    padding-top: 40px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.safe_reliable{
+    height: 60vh;
+    width: 100%;
+    background-color:rgb(111, 236, 174);
+}
+.card{
+    height: 85%;
+    width: 30%;
+    /* border: 2px solid black; */
+    line-height: 2;
+}
+.card h5{
+    font-size: large;
+}
+.pricing_sec{
+    padding-top: 50px;
+    height: 80vh;
+}
+.inside_item{
+    font-size: 4rem;
+}
+.pricing_btn{
+    margin-top: 10%;
+    height: 40px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: rgb(11, 11, 75);
+    background-color: white;
+}
+.card_2{
+    background-color: rgb(11, 11, 75);
+    color: white;
+    padding-bottom: 11px;
+    perspective: 1000px;
+}
+.card_2:hover{
+    transition: all 2s;
+    transform: rotateY(360deg);
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.client{
+    margin-top: 5%;
+    background-color: lightgrey;
+    overflow: hidden;
+    position: relative;
+}
+.client_div{
+    white-space: nowrap;
+}
+.client:before,
+.client:after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+}
+.client:before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0),white);
+}
+.client::after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0),white);
+}
+.client_div:hover .client_sec{
+    animation-play-state: paused;
+} 
+.client_sec{
+    animation: 35s slide infinite linear;
+    display: inline-block;
+}
+.client_sec img{
+    padding: 30px 0px 30px 0px;
+    margin: 0 40px;
+}
+
+.contactUs{
+    background-image: url("../img/contact-bk.jpg");
+    height: 70vh;
+    background-size: cover;
+    padding-top: 10%;
+}
+.contact_text{
+    color: white;
+    line-height: 1.5;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.contact_text h2{
+    font-size: 3rem;
+}
+.contact_input{
+    /* border: 2px solid red; */
+    color: rgb(111, 236, 174);
+}
+.input_background{
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(111, 236, 174);
+    height: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+.parent_meassage{
+    margin-top: 20px;
+}
+.message_class{
+    width: 100%;
+    height: 20vh;
+}
+.sb_btn{
+    width: 100%;
+    background-color: rgb(111, 236, 174);
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: rgb(7, 7, 59);
+}
+._footer{
+    padding-top: 20px;
+}
+.footer_icon{
+    gap: 10px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: rgb(7, 7, 59);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
