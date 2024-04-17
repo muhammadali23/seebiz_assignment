@@ -1,0 +1,31 @@
+.parent_div {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.color {
+  height: 30vh;
+  width: 30vw;
+  border: 2px solid black;
+  margin: 2%;
+}
+#grey {
+  background-color: gray;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+h1,
+h3 {
+  text-align: center;
+}
