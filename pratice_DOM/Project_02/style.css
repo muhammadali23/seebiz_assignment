@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+  color: rgb(13, 104, 69);
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cal_btn {
+  height: 5vh;
+  position: relative;
+  left: 35%;
+  background-color: rgb(13, 104, 69);
+  color: white;
+  border: none;
+}
+#result {
+  margin-top: 2%;
+}
