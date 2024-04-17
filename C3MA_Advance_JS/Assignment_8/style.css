@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+h1 {
+  margin-bottom: 3%;
+  color: rgb(41, 82, 122);
+}
+.form_class {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input_class {
+  margin-bottom: 5%;
+}
+input {
+  width: 30vw;
+  height: 5vh;
+}
+.btn {
+  height: 5vh;
+  width: 7vw;
+  background-color: lightslategrey;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+table,
+th,
+td {
+  margin-top: 5%;
+  border: 2px solid rgb(104, 98, 98);
+  border-collapse: collapse;
+  background-color: lightslategrey;
+  color: white;
+}
+#table_data {
+  border-radius: 50%;
+}
