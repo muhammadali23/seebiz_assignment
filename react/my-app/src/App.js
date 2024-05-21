@@ -2,6 +2,7 @@
 // import Garge from "./components/footer";
 import Header from "./components/header";
 import Message from "./components/Message";
+import Mounting from "./components/Mounting";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <Garge /> */}
       <Header />
       <Message />
+      <Mounting name="I am prop from mounting" />
     </>
   );
 }

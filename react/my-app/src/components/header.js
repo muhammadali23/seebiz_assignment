@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-// function setColor(color) {
-//   color = color;
-// }
 const Header = () => {
   const [color, setColor] = useState("red");
   return (
