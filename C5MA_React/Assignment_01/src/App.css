@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.parent {
+  height: 50vh;
+  width: 25vw;
+  background-color: aqua;
+}
+.child {
+  position: relative;
+  top: 30px;
+  background-color: beige;
+  height: 10vh;
+  width: 10vw;
+  /* padding: 20px; */
+  margin: 4.5em;
+  font-size: x-large;
+}
