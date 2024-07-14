@@ -11,7 +11,7 @@ export default class Mounting extends Component {
   }
   static getDerivedStateFromProps(props, state) {
     console.log("getDerivedStateFromProps method called");
-    console.log(props, state);
+    // console.log(props, state);
     return null;
   }
   render() {

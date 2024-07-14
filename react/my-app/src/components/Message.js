@@ -11,6 +11,7 @@ class Message extends Component {
     });
   }
   render() {
+    // this.setState({ message: "Thanks for updating" });
     return (
       <div style={{ textAlign: "center" }}>
         <h1>{this.state.message}</h1>

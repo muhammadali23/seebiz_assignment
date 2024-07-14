@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sub-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+}

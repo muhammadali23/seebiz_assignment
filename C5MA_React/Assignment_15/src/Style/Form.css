@@ -1,0 +1,21 @@
+.form-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.form_class {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.read_btn {
+  padding-left: 35.5%;
+}

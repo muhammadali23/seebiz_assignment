@@ -1,8 +1,4 @@
 const mongoose = require("mongoose");
-const { type } = require("os");
-// const { type } = require("os");
-// const { boolean } = require("webidl-conversions");
-
 const productSchema = new mongoose.Schema({
   product_name: {
     type: String,
